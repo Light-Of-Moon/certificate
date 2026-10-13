@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#090909" name="theme-color"/>
+<meta content="A curated gallery of 40 original certificate and achievement PDFs and 2 HexTree screenshot records, accurately grouped by credential type." name="description"/>
+<title>Mohamed Salah | Certificate Gallery</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+</head>
+<body>
+<a class="skip-link" href="#gallery">Skip to certificates</a>
+<main>
+<div class="brick-wall" id="wall">
+<div aria-hidden="true" class="ambient-light"></div>
+<div aria-hidden="true" class="ceiling-fixture"><span></span></div>
+<div class="wall-content">
+<section aria-label="Certificate gallery" class="collection" id="gallery">
+<div class="tools" role="search">
+<div aria-label="Filter certificates by category" class="filter-strip" id="filter-strip"></div>
+<label class="search-box" for="certificate-search">
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-width="1.7" viewbox="0 0 24 24" width="18"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+<input autocomplete="off" id="certificate-search" placeholder="Search title, skill, or credential..." type="search"/>
+<span class="search-shortcut">⌕</span>
+</label>
+</div><section aria-label="Featured certificates" class="featured-section" id="featured-section">
+<div class="feature-wall" id="featured-wall"></div>
+</section>
+<div aria-label="All certificates and lab achievements" aria-live="polite" class="gallery-grid" id="gallery-grid"></div>
+<div class="no-results" hidden="" id="no-results"><h3>No matching frames.</h3><p>Try another search or explore the full wall.</p><button id="clear-filters" type="button">Show everything</button></div>
+</section>
+</div>
+</div>
+</main>
+<dialog aria-label="Certificate viewer" class="viewer" id="certificate-dialog">
+<div class="viewer-inner">
+<header class="viewer-header">
+<div class="viewer-title-area"><small id="viewer-category">ORIGINAL DOCUMENT</small><h2 id="viewer-title">Certificate</h2><p class="viewer-description" id="viewer-description"></p></div>
+<button aria-label="Close viewer" class="icon-button" id="viewer-close" type="button">✕</button>
+</header>
+<div class="pdf-wrap" id="viewer-pdf-wrap"><iframe id="viewer-pdf" loading="lazy" title="Original PDF certificate"></iframe></div><div class="evidence-wrap" hidden="" id="viewer-evidence"><img alt="Screenshot of a completed HexTree course or lab" id="viewer-image" loading="eager"/></div>
+<footer class="viewer-footer">
+<div class="viewer-nav"><button aria-label="Previous document" id="viewer-prev" type="button">← Previous</button><span id="viewer-position">1 / 42</span><button aria-label="Next document" id="viewer-next" type="button">Next →</button></div>
+<div class="viewer-links"><a href="#" id="viewer-drive" rel="noopener noreferrer" target="_blank">Original in Google Drive ↗</a><a download="" href="#" id="viewer-download">Download PDF ↓</a></div>
+</footer>
+</div>
+</dialog>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
