@@ -36,3 +36,26 @@
 .viewer-header{min-height:112px}
 .featured-section[hidden]{display:none!important}
 @media(max-width:570px){.viewer-header{min-height:136px;align-items:start}.viewer-title-area .viewer-description{font-size:11px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.viewer-title-area h2{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
+
+/* October refresh: compact professional links and a quiet identity hero. */
+.profile-header{position:relative;z-index:10;background:#0b0908;border-bottom:1px solid rgba(215,175,125,.19)}
+.profile-header-inner{width:min(1450px,100%);padding:0 clamp(20px,5.3vw,88px);min-height:75px;display:flex;gap:24px;align-items:center;justify-content:space-between;margin:0 auto}
+.profile-home{font-size:14px;letter-spacing:.095em;font-weight:700;color:#f0e4d4;white-space:nowrap;transition:color .2s}
+.profile-home:hover,.profile-home:focus-visible{color:#e7b979}
+.profile-home-mark{color:#c68e5b}
+.profile-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(14px,2.7vw,36px)}
+.profile-link{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:12px;font-weight:600;letter-spacing:.065em;color:#cbbfb2;transition:color .2s}
+.profile-link span{font-size:13px;color:#c6a077;transition:transform .2s}
+.profile-link:hover,.profile-link:focus-visible{color:#f9ead2}
+.profile-link:hover span{transform:translate(2px,-2px)}
+.wall-content{padding-top:0}
+.identity-hero{text-align:center;padding:clamp(82px,10vw,147px) 0 clamp(64px,8vw,105px);max-width:1200px;margin:0 auto}
+.identity-hero h1{margin:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;column-gap:clamp(11px,1.8vw,30px);row-gap:12px;font:normal clamp(34px,5.2vw,79px)/1.09 Georgia,'Times New Roman',serif;letter-spacing:-.043em;color:#f4e8d7;text-shadow:0 6px 30px rgba(0,0,0,.42)}
+.identity-hero .hero-handle{color:#eddac2}
+.identity-hero .hero-divider{color:#be9368;font-family:Arial,Helvetica,sans-serif;font-size:.69em;font-weight:200;opacity:.86;line-height:1}
+.identity-hero .hero-name{color:#dcb17d}
+.hero-arabic{margin:clamp(23px,3vw,39px) auto 0;color:#dfcdb7;font:normal clamp(18px,2.05vw,27px)/1.9 'Noto Naskh Arabic',Tahoma,Arial,sans-serif;text-shadow:0 3px 22px rgba(0,0,0,.35)}
+.identity-hero:after{content:'';display:block;width:73px;height:1px;margin:clamp(23px,3.4vw,43px) auto 0;background:linear-gradient(90deg,transparent,#c39b6d,transparent)}
+.tools{margin-top:0}
+@media(max-width:780px){.profile-header-inner{min-height:70px;gap:15px;flex-wrap:wrap;padding-top:15px;padding-bottom:15px}.profile-nav{gap:18px}.profile-link{font-size:11px}.identity-hero{padding-top:92px;padding-bottom:61px}}
+@media(max-width:520px){.profile-header-inner{justify-content:center}.profile-nav{width:100%;justify-content:space-around;gap:10px}.profile-link{font-size:10px;letter-spacing:.01em}.identity-hero{padding-top:76px;padding-bottom:55px}.identity-hero h1{font-size:clamp(29px,7.5vw,47px);column-gap:9px}.hero-arabic{font-size:17px;line-height:1.75}}

@@ -1,4 +1,4 @@
-// Audited collection: 33 original Drive PDFs and 2 HexTree screenshots.
+// Audited collection: 32 original Drive PDFs and 2 HexTree screenshots.
 const CERTIFICATES = [
   {
     "title": "CORELiA — Cyber Security (RED) Internship",
@@ -145,7 +145,7 @@ const CERTIFICATES = [
     "sourceLabel": "Original PDF"
   },
   {
-    "title": "INE — Incident Handling & Response Professional Path",
+    "title": "INE — Incident Handling & Response Professional Path (eCIR Prep)",
     "issuer": "INE",
     "category": "Learning Paths",
     "driveId": "1tbTaNG_rGe28v9cDMv6aqtpgopnM-HB",
@@ -161,7 +161,7 @@ const CERTIFICATES = [
     "sourceLabel": "Original PDF"
   },
   {
-    "title": "INE — Penetration Testing Student Path",
+    "title": "INE — Penetration Testing Student Path (eJPT Prep)",
     "issuer": "INE",
     "category": "Learning Paths",
     "driveId": "1-H-XZtKigHAPXmbZQfQokh5sAE4jT4AA",
@@ -510,22 +510,6 @@ const CERTIFICATES = [
     "credentialType": "Conference attendance",
     "detail": "Conference certificate for the paper on VANET security at JAC-ECC 2024. Mohamed Hefnawy is listed among the paper authors; the document identifies Yasmeen Khalifa as its presenter.",
     "focus": "VANET security research",
-    "sourceLabel": "Original PDF"
-  },
-  {
-    "title": "British Council — EnglishScore CEFR B2",
-    "issuer": "British Council",
-    "category": "Assessments & Skills",
-    "driveId": "1yqabfDfuWV3rjj-OTqbAyyhK8LxyvJrY",
-    "landscape": false,
-    "ratio": 0.70734,
-    "pages": 1,
-    "pdf": "assets/certificates/British Council - EnglishScore CEFR B2.pdf",
-    "preview": "assets/previews/British Council - EnglishScore CEFR B2.webp",
-    "sourceTitle": "British Council - EnglishScore CEFR B2",
-    "credentialType": "Language assessment",
-    "detail": "British Council EnglishScore Core Skills assessment: 465 points, CEFR B2 (Upper Intermediate).",
-    "focus": "English language",
     "sourceLabel": "Original PDF"
   },
   {

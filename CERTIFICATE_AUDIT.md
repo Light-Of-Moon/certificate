@@ -1,6 +1,6 @@
 # Evidence audit — Certificate Wall
 
-Source: 40 original PDF files in the `cet` Drive folder and 2 HexTree screenshot images.
+Source review: 40 original PDF files in the `cet` Drive folder and 2 HexTree screenshot images. Website selection: 32 original PDFs and 2 HexTree screenshots. The EnglishScore B2 document has been removed from the website only.
 
 Each filter is based on the **type of evidence**, not merely the subject area or issuer. The original PDF files and Drive IDs have not been renamed or modified.
 
@@ -80,7 +80,7 @@ Each filter is based on the **type of evidence**, not merely the subject area or
 - **Evidence:** Completed the HTB Academy Web Penetration Tester path (+330 Academy XP). This completion is not proof of a separate professional exam award.
 - **Source:** assets/certificates/HTB Academy - Web Penetration Tester Path.pdf | [Drive original](https://drive.google.com/file/d/1HnhFCRcA-U60BPaPJ9XDxi4Ynx3mhXdx/view)
 
-### 10. INE — Incident Handling & Response Professional Path
+### 10. INE — Incident Handling & Response Professional Path (eCIR Prep)
 
 - **Filter:** Learning Paths
 - **Award type:** Learning-path completion
@@ -88,7 +88,7 @@ Each filter is based on the **type of evidence**, not merely the subject area or
 - **Evidence:** INE certificate of completion for the Incident Handling & Response Professional learning path, dated 24 May 2025; course length 8 h 22 m. Not an eCIR exam certificate.
 - **Source:** assets/certificates/INE - Incident Handling & Response Professional.pdf | [Drive original](https://drive.google.com/file/d/1tbTaNG_rGe28v9cDMv6aqtpgopnM-HB/view)
 
-### 11. INE — Penetration Testing Student Path
+### 11. INE — Penetration Testing Student Path (eJPT Prep)
 
 - **Filter:** Learning Paths
 - **Award type:** Learning-path completion
@@ -264,15 +264,7 @@ Each filter is based on the **type of evidence**, not merely the subject area or
 - **Evidence:** Conference certificate for the paper on VANET security at JAC-ECC 2024. Mohamed Hefnawy is listed among the paper authors; the document identifies Yasmeen Khalifa as its presenter.
 - **Source:** assets/certificates/E-JUST - International Japan-Africa Conference - Certificate of Attendance.pdf | [Drive original](https://drive.google.com/file/d/161NBOycGZJ-aUXmbMFkdeZAX2cWNr3-O/view)
 
-### 33. British Council — EnglishScore CEFR B2
-
-- **Filter:** Assessments & Skills
-- **Award type:** Language assessment
-- **Area:** English language
-- **Evidence:** British Council EnglishScore Core Skills assessment: 465 points, CEFR B2 (Upper Intermediate).
-- **Source:** assets/certificates/British Council - EnglishScore CEFR B2.pdf | [Drive original](https://drive.google.com/file/d/1yqabfDfuWV3rjj-OTqbAyyhK8LxyvJrY/view)
-
-### 34. British Council — Secondary Plus Progress Report
+### 33. British Council — Secondary Plus Progress Report
 
 - **Filter:** Assessments & Skills
 - **Award type:** Academic progress report
@@ -280,7 +272,7 @@ Each filter is based on the **type of evidence**, not merely the subject area or
 - **Evidence:** Teacher’s Secondary Plus YL Term 2 progress report about speaking, listening, reading, writing and collaboration. It is not a completion certificate.
 - **Source:** assets/certificates/British Council - Secondary Plus - YL Term 2 - Progress Report.pdf | [Drive original](https://drive.google.com/file/d/1f7cG0NP2szmTeZ3VSJjZaE5sOdZPz3rR/view)
 
-### 35. Typing.com — Typing Assessment
+### 34. Typing.com — Typing Assessment
 
 - **Filter:** Assessments & Skills
 - **Award type:** Skills assessment
