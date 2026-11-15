@@ -1,65 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="#090909" name="theme-color"/>
-<meta content="A curated gallery of 32 original certificate and achievement PDFs and 2 HexTree screenshot records, accurately grouped by credential type." name="description"/>
-<title>Mohamed Salah | Certificate Gallery</title>
-<link href="styles.css" rel="stylesheet"/>
-<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d0b">
+<meta name="description" content="Certificates and achievements from Mohamed Salah’s work in cybersecurity: practical labs, learning paths, internships, research, and CTF competitions.">
+<title>Mohamed Salah | Certificates & Achievements</title>
+<link href="styles.css" rel="stylesheet">
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml">
 </head>
 <body>
+<a class="skip-link" href="#gallery">Skip to certificates</a>
 <header class="profile-header">
   <div class="profile-header-inner">
-    <a class="profile-home" href="#top" aria-label="Back to top">lightofthemoon<span class="profile-home-mark">.</span></a>
+    <a class="profile-home" href="#top" aria-label="Back to top"><svg class="moon-mark" aria-hidden="true" viewBox="0 0 24 24"><path d="M19.7 15.8A8.7 8.7 0 0 1 8.2 4.3a8.8 8.8 0 1 0 11.5 11.5Z"/></svg>lightofthemoon<span class="profile-home-mark">.</span></a>
     <nav class="profile-nav" aria-label="Professional profiles">
-      <a class="profile-link" href="https://www.linkedin.com/in/mohamed-salah-3a0498248/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-      <a class="profile-link" href="https://hackerone.com/lightofthemoon" target="_blank" rel="noopener noreferrer">HackerOne <span aria-hidden="true">↗</span></a>
-      <a class="profile-link" href="https://app.hackthebox.com/profile/2354735" target="_blank" rel="noopener noreferrer">Hack The Box <span aria-hidden="true">↗</span></a>
+      <a class="profile-link" href="https://www.linkedin.com/in/mohamed-salah-3a0498248/" target="_blank" rel="noopener noreferrer">LinkedIn <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M4 12 12 4M4 4h8v8"/></svg></a>
+      <a class="profile-link" href="https://hackerone.com/lightofthemoon" target="_blank" rel="noopener noreferrer">HackerOne <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M4 12 12 4M4 4h8v8"/></svg></a>
+      <a class="profile-link" href="https://app.hackthebox.com/profile/2354735" target="_blank" rel="noopener noreferrer">Hack The Box <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M4 12 12 4M4 4h8v8"/></svg></a>
     </nav>
   </div>
 </header>
-<a class="skip-link" href="#gallery">Skip to certificates</a>
-<main>
-<div class="brick-wall" id="wall">
-<div aria-hidden="true" class="ambient-light"></div>
-<div aria-hidden="true" class="ceiling-fixture"><span></span></div>
-<div class="wall-content" id="top">
-<section class="identity-hero" aria-labelledby="identity-title">
-  <h1 id="identity-title"><span class="hero-handle">lightofthemoon</span><span class="hero-divider" aria-hidden="true">|</span><span class="hero-name">mohamed salah</span></h1>
-  <p class="hero-arabic" dir="rtl" lang="ar">كلما ازددت علمًا، ازددت إدراكًا بمدى جهلي.</p>
-</section>
-<section aria-label="Certificate gallery" class="collection" id="gallery">
-<div class="tools" role="search">
-<div aria-label="Filter certificates by category" class="filter-strip" id="filter-strip"></div>
-<label class="search-box" for="certificate-search">
-<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-width="1.7" viewbox="0 0 24 24" width="18"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-<input autocomplete="off" id="certificate-search" placeholder="Search title, skill, or credential..." type="search"/>
-<span class="search-shortcut">⌕</span>
-</label>
-</div><section aria-label="Featured certificates" class="featured-section" id="featured-section">
-<div class="feature-wall" id="featured-wall"></div>
-</section>
-<div aria-label="All certificates and lab achievements" aria-live="polite" class="gallery-grid" id="gallery-grid"></div>
-<div class="no-results" hidden="" id="no-results"><h3>No matching frames.</h3><p>Try another search or explore the full wall.</p><button id="clear-filters" type="button">Show everything</button></div>
-</section>
-</div>
-</div>
+<main class="brick-wall" id="wall">
+  <div aria-hidden="true" class="ambient-light"></div>
+  <div aria-hidden="true" class="ceiling-fixture"><span></span></div>
+  <div class="wall-content" id="top">
+    <section class="identity-hero" aria-labelledby="identity-title">
+      <p class="hero-eyebrow"><span></span> CERTIFICATES &amp; ACHIEVEMENTS <span></span></p>
+      <h1 id="identity-title"><span class="hero-handle">lightofthemoon</span><span class="hero-divider" aria-hidden="true">/</span><span class="hero-name">Mohamed Salah</span></h1>
+      <p class="hero-arabic" dir="rtl" lang="ar">كلما ازددت علمًا، ازددت إدراكًا بمدى جهلي.</p>
+      <p class="hero-index"><span><b id="record-total">35</b> achievements</span><span class="index-dot" aria-hidden="true"></span><span>offensive security · defense · research</span></p>
+    </section>
+    <section class="featured-section" id="featured-section" aria-label="Featured certificates">
+      <div class="wall-label"><span>FEATURED ACHIEVEMENTS</span><span class="wall-label-line" aria-hidden="true"></span><span class="wall-label-end">01 — 03</span></div>
+      <div class="feature-wall" id="featured-wall"></div>
+    </section>
+    <section class="collection" id="gallery" aria-labelledby="collection-title">
+      <div class="wall-label collection-label"><h2 id="collection-title">EXPLORE THE COLLECTION</h2><span class="wall-label-line" aria-hidden="true"></span><span id="result-count" role="status">35 achievements</span></div>
+      <div class="tools" role="search" aria-label="Find certificates">
+        <div class="search-row">
+          <label class="search-box" for="certificate-search">
+            <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.6" viewBox="0 0 24 24"><circle cx="10.7" cy="10.7" r="6.7"></circle><path d="m20 20-4.5-4.5"></path></svg>
+            <input autocomplete="off" id="certificate-search" placeholder="Search by title, skill, or issuer" type="search" aria-label="Search by title, skill, or issuer">
+            <kbd aria-hidden="true">/</kbd>
+          </label>
+          <span class="collection-note">Learning, practice, and competition.</span>
+        </div>
+        <div aria-label="Filter certificates by category" class="filter-strip" id="filter-strip"></div>
+      </div>
+      <div aria-label="Certificates and achievements" class="gallery-grid" id="gallery-grid"></div>
+      <div class="no-results" hidden id="no-results"><h3>No matching achievements.</h3><p>Try a different keyword or choose another category.</p><button id="clear-filters" type="button">Clear search &amp; filters</button></div>
+      <a class="back-top" href="#top">BACK TO TOP <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M8 13V3M3 8l5-5 5 5"/></svg></a>
+    </section>
+  </div>
 </main>
-<dialog aria-label="Certificate viewer" class="viewer" id="certificate-dialog">
-<div class="viewer-inner">
-<header class="viewer-header">
-<div class="viewer-title-area"><small id="viewer-category">ORIGINAL DOCUMENT</small><h2 id="viewer-title">Certificate</h2><p class="viewer-description" id="viewer-description"></p></div>
-<button aria-label="Close viewer" class="icon-button" id="viewer-close" type="button">✕</button>
-</header>
-<div class="pdf-wrap" id="viewer-pdf-wrap"><iframe id="viewer-pdf" loading="lazy" title="Original PDF certificate"></iframe></div><div class="evidence-wrap" hidden="" id="viewer-evidence"><img alt="Screenshot of a completed HexTree course or lab" id="viewer-image" loading="eager"/></div>
-<footer class="viewer-footer">
-<div class="viewer-nav"><button aria-label="Previous document" id="viewer-prev" type="button">← Previous</button><span id="viewer-position">1 / 34</span><button aria-label="Next document" id="viewer-next" type="button">Next →</button></div>
-<div class="viewer-links"><a href="#" id="viewer-drive" rel="noopener noreferrer" target="_blank">Original in Google Drive ↗</a><a download="" href="#" id="viewer-download">Download PDF ↓</a></div>
-</footer>
-</div>
+<dialog aria-labelledby="viewer-title" class="viewer" id="certificate-dialog">
+  <div class="viewer-inner">
+    <header class="viewer-header">
+      <div class="viewer-title-area"><small id="viewer-category">ORIGINAL DOCUMENT</small><h2 id="viewer-title">Certificate</h2><p class="viewer-description" id="viewer-description"></p></div>
+      <button aria-label="Close viewer" class="icon-button" id="viewer-close" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </header>
+    <div class="pdf-wrap" id="viewer-pdf-wrap"><iframe id="viewer-pdf" loading="lazy" title="Original PDF certificate"></iframe></div>
+    <div class="evidence-wrap" hidden id="viewer-evidence"><img alt="Original achievement document" id="viewer-image" loading="eager"></div>
+    <footer class="viewer-footer">
+      <div class="viewer-nav"><button aria-label="Previous document" id="viewer-prev" type="button">← Previous</button><span id="viewer-position">1 / 35</span><button aria-label="Next document" id="viewer-next" type="button">Next →</button></div>
+      <div class="viewer-links"><a href="#" id="viewer-drive" rel="noopener noreferrer" target="_blank">View on Drive <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M4 12 12 4M4 4h8v8"/></svg></a><a href="#" id="viewer-original" rel="noopener noreferrer" target="_blank">Open original <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M4 12 12 4M4 4h8v8"/></svg></a><a download href="#" id="viewer-download">Download ↓</a></div>
+    </footer>
+  </div>
 </dialog>
 <script src="data.js"></script>
 <script src="script.js"></script>

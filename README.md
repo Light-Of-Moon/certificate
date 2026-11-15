@@ -1,40 +1,45 @@
-# Certificate Wall — Audited Edition
+# Certificate Wall
 
-A responsive, offline-capable static gallery built from the owner's **32 original Google Drive PDFs** and **2 owner-provided HexTree screenshots**. No AI-generated certificates. Original document bytes are unchanged.
+A responsive certificate gallery for Mohamed Salah / lightofthemoon. Titles, descriptions, and credential labels use concise, consistent wording. Issuers appear above the titles so they do not repeat within every card. The design keeps the red brick wall, warm gallery light, black frames, and gold details, with improved spacing, consistent frame sizes, and clearer captions.
 
-Open `index.html` after extracting the archive, or publish this directory with a static hosting provider. The red brick wall, black frames, top-centered soft light, search, category filters, featured collection, document preview, and viewer are all retained. The header links directly to LinkedIn, HackerOne and Hack The Box. The hero displays the requested handle/name and Arabic quote. The gallery, filters and certificate viewer are unchanged.
+## Open it
 
-## Featured
+Extract the ZIP and open `certificate/index.html` in a browser. All styles, scripts, previews, PDFs, and images are included. No install or build is needed. If a browser blocks an embedded PDF from a local file, use **Open original** or serve the folder with `python3 -m http.server 8000`.
 
-- CORELiA — Cyber Security (RED) Internship (1 Sep 2025–1 Jan 2026)
-- HTB Pro Lab — APTLabs (hands-on Pro Lab completion)
-- HTB Academy — Penetration Tester Path (CPTS preparation path, **not** a CPTS certification claim)
+For GitHub Pages, upload the files inside `certificate/` to the repository root, keeping the assets directory beside index.html. Use the existing repository's Pages settings.
 
-## Audited filters
+## Collection
 
-- Learning Paths (9)
-- Hands-on Labs (3)
-- Training & Courses (10)
-- Internships (2)
-- CTFs & Challenges (6)
-- Research & Conferences (2)
-- Assessments & Skills (2)
+35 achievements: 32 original PDFs, 2 original HexTree screenshots, and the supplied Cyber Week Plus Top 10 certificate image. Original documents are unchanged.
 
-The 32 included PDFs have been checked visually and, where available, through their extracted text, including the six pages of the LetsDefend PDF. The HexTree evidence is a learning-path screenshot (14/14 courses) and a lab screenshot (40/40 flags). See `CERTIFICATE_AUDIT.md` for a per-item summary, original filenames and explanations for reclassification.
+| Category | Records |
+| --- | ---: |
+| Learning Paths | 9 |
+| Hands-on Labs | 3 |
+| Training & Courses | 10 |
+| Internships | 2 |
+| CTFs & Challenges | 7 |
+| Research & Conferences | 2 |
+| Assessments & Skills | 2 |
 
-## October 2026 updates
+The featured wall displays CORELiA, Cyber Week Plus Top 10, and APTLabs. The Top 10 certificate is larger on desktop and appears first on small screens. CPTS preparation remains in the full collection under Learning Paths.
 
-- Removed British Council — EnglishScore CEFR B2 from the displayed collection and static asset package (the original Google Drive file is unaffected).
-- Updated INE learning-path labels to include **(eJPT Prep)** and **(eCIR Prep)**; neither is represented as a passed INE certification exam.
-- Added LinkedIn, HackerOne, and Hack The Box profile links in the top header, and the requested identity/Arabic text in the hero.
-- Total: **34 achievements**, 32 PDFs and 2 HexTree screenshots.
+## Gallery features
 
-## Publishing
+- Search titles, issuers, skills, and credential descriptions.
+- Filter by category with counts and a live results count.
+- Open original PDFs and images in the document viewer.
+- Download originals or open the existing Google Drive links.
+- Use left/right arrows in the viewer, Escape to close it, and `/` to focus search.
+- Portrait and landscape documents fit fully within consistent frames.
+- Phone, tablet, keyboard, and reduced-motion layouts are supported.
 
-Use GitHub Pages, Netlify or another static host by uploading the **unpacked directory contents**, not the ZIP as a single file. GitHub Pages path: repository `Settings → Pages → Build and deployment → Deploy from a branch → main/(root)`; the URL takes the form `https://<owner>.github.io/<repo>/`.
+## Content labels
 
-**Privacy:** All supplied PDFs and screenshots are inside this public website package. Anyone visiting a public deployment may download them and see names, IDs, certificate numbers, dates, and other details appearing on documents. Review the contents before publicly deploying. No private Google Drive share setting is changed by this package.
+HTB Academy and INE path completions retain their learning-path labels. They do not claim a passed certification exam. APTLabs and Zephyr remain the only displayed HTB Pro Labs. The British Council EnglishScore B2 item remains excluded.
 
-## HTB Pro Lab selection
+## Checks
 
-Only **APTLabs** and **Zephyr** are included from the Hack The Box Pro Lab collection. The other seven HTB Pro Lab entries and their PDF/preview assets have been removed from this website package. The HTB Academy learning-path certificates remain, and the HexTree lab achievement is unaffected. This change does not delete anything from Google Drive.
+Run `python3 qa_check.py` with Python, PyMuPDF, and Node installed. The check validates record counts, categories, original PDF page counts, assets, featured entries, HTML IDs, and JavaScript syntax. Browser checks also covered search, empty results, category filtering, image/PDF viewer navigation, and phone/tablet layouts.
+
+The package contains the original certificate files intended for the gallery. Publishing the unpacked website makes those documents accessible to visitors.

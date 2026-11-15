@@ -1,4 +1,4 @@
-// Audited collection: 32 original Drive PDFs and 2 HexTree screenshots.
+// Collection: 32 original PDFs, 2 HexTree screenshots, and 1 original certificate image.
 const CERTIFICATES = [
   {
     "title": "CORELiA — Cyber Security (RED) Internship",
@@ -12,9 +12,29 @@ const CERTIFICATES = [
     "preview": "assets/previews/CORELiA - Cyber Security RED Internship Program.webp",
     "sourceTitle": "CORELiA - Cyber Security RED Internship Program",
     "credentialType": "Internship certificate",
-    "detail": "Certificate of internship for completing the fundamentals of the Cyber Security (RED) Internship Program, 1 Sep 2025–1 Jan 2026.",
+    "detail": "Completed the fundamentals of CORELiA’s Cyber Security (RED) Internship Program, from 1 September 2025 to 1 January 2026.",
     "focus": "Red-team training",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Cybersecurity (RED) Internship"
+  },
+  {
+    "title": "XPAND CS — Cyber Week Plus — Top 10",
+    "displayTitle": "Cyber Week Plus — Top 10",
+    "issuer": "XPAND CS · MCS · Palo Alto Networks",
+    "category": "CTFs & Challenges",
+    "kind": "image",
+    "evidenceType": "certificate",
+    "source": "assets/certificates/XPAND CS - Cyber Week Plus - Top 10.jpeg",
+    "preview": "assets/previews/XPAND CS - Cyber Week Plus - Top 10.webp",
+    "pages": 1,
+    "ratio": 1.45197,
+    "landscape": true,
+    "sourceTitle": "XPAND CS - Cyber Week Plus - Top 10",
+    "credentialType": "Top 10 recognition",
+    "detail": "Ranked in the Top 10 at Cyber Week Plus. Certificate issued to Mohamed Salah Mohamed on 24 August 2026.",
+    "focus": "Cyber Week Plus cybersecurity ranking",
+    "sourceLabel": "Original certificate image",
+    "highlight": "TOP 10"
   },
   {
     "title": "HTB Pro Lab — APTLabs",
@@ -28,9 +48,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/HTB Pro Lab - APTLabs.webp",
     "sourceTitle": "HTB Pro Lab - APTLabs",
     "credentialType": "Pro Lab completion",
-    "detail": "Hack The Box certificate of completion for the APTLabs Pro Lab. This records a completed practical lab, not an HTB Academy certification exam.",
+    "detail": "Completed Hack The Box’s APTLabs Pro Lab, a practical offensive security lab.",
     "focus": "Offensive security lab",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "APTLabs Pro Lab"
   },
   {
     "title": "HTB Academy — Penetration Tester Path (CPTS Preparation)",
@@ -43,10 +64,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/HTB Academy - Penetration Tester Path.pdf",
     "preview": "assets/previews/HTB Academy - Penetration Tester Path.webp",
     "sourceTitle": "HTB Academy - Penetration Tester Path",
-    "credentialType": "Learning-path completion",
-    "detail": "Completed the HTB Academy Penetration Tester job-role path (+450 Academy XP). This path prepares candidates for CPTS; passing the separate CPTS exam is not established by this document.",
+    "credentialType": "Learning path · CPTS preparation",
+    "detail": "Completed the HTB Academy Penetration Tester job-role path in preparation for CPTS. Awarded 450 Academy XP.",
     "focus": "Penetration testing",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Penetration Tester Path"
   },
   {
     "title": "Edraky CBA × SAP — Internship Participation",
@@ -60,9 +82,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/Edraky CBA x SAP - Internship - August 2024.webp",
     "sourceTitle": "Edraky CBA x SAP - Internship - August 2024",
     "credentialType": "Internship participation",
-    "detail": "Certificate of participation for the August 2024 internship at Edraky Capacity Building Academy in collaboration with SAP.",
+    "detail": "Participated in the August 2024 internship at Edraky Capacity Building Academy, in collaboration with SAP.",
     "focus": "Professional internship",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "SAP Internship Program"
   },
   {
     "title": "HexTree — Intent Attack Surface (40/40 Flags)",
@@ -75,10 +98,11 @@ const CERTIFICATES = [
     "ratio": 0.8,
     "landscape": false,
     "sourceTitle": "HexTree — Intent Attack Surface Lab (40/40 Flags)",
-    "credentialType": "Hands-on lab achievement",
-    "detail": "The supplied HexTree screenshot shows the Intent Attack Surface Android lab completed with 40/40 flags. This is screenshot evidence, not a separately issued PDF certificate.",
+    "credentialType": "Lab completion · 40/40 flags",
+    "detail": "Completed the HexTree Intent Attack Surface lab with all 40 flags captured. Completion recorded in the original screenshot.",
     "focus": "Android intent security",
-    "sourceLabel": "Screenshot evidence"
+    "sourceLabel": "Screenshot evidence",
+    "displayTitle": "Intent Attack Surface"
   },
   {
     "title": "HTB Pro Lab — Zephyr",
@@ -92,9 +116,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/HTB Pro Lab - Zephyr.webp",
     "sourceTitle": "HTB Pro Lab - Zephyr",
     "credentialType": "Pro Lab completion",
-    "detail": "Hack The Box certificate of completion for the Zephyr Pro Lab. This records a completed practical lab, not an HTB Academy certification exam.",
+    "detail": "Completed Hack The Box’s Zephyr Pro Lab, a practical offensive security lab.",
     "focus": "Offensive security lab",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Zephyr Pro Lab"
   },
   {
     "title": "HexTree — Android Learning Path (14/14)",
@@ -107,10 +132,11 @@ const CERTIFICATES = [
     "ratio": 0.8,
     "landscape": false,
     "sourceTitle": "HexTree — Android Learning Path (14/14 Courses)",
-    "credentialType": "Learning-path achievement",
-    "detail": "The supplied HexTree screenshot shows 14 out of 14 Android courses completed. This is screenshot evidence, not a separately issued PDF certificate.",
+    "credentialType": "Learning path · 14/14 courses",
+    "detail": "Completed all 14 courses in HexTree’s Android learning path. Completion recorded in the original screenshot.",
     "focus": "Android security",
-    "sourceLabel": "Screenshot evidence"
+    "sourceLabel": "Screenshot evidence",
+    "displayTitle": "Android Learning Path"
   },
   {
     "title": "HTB Academy — AI Red Teamer Path",
@@ -123,10 +149,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/HTB Academy - AI Red Teamer Path.pdf",
     "preview": "assets/previews/HTB Academy - AI Red Teamer Path.webp",
     "sourceTitle": "HTB Academy - AI Red Teamer Path",
-    "credentialType": "Learning-path completion",
-    "detail": "Hack The Box Academy congratulates the account Lightofthemoon on completing the AI Red Teamer path; the record shows +210 Academy XP, not an exam credential.",
+    "credentialType": "Learning path completion",
+    "detail": "Completed the HTB Academy AI Red Teamer path. Awarded 210 Academy XP.",
     "focus": "AI security",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "AI Red Teamer Path"
   },
   {
     "title": "HTB Academy — Web Penetration Tester Path",
@@ -139,10 +166,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/HTB Academy - Web Penetration Tester Path.pdf",
     "preview": "assets/previews/HTB Academy - Web Penetration Tester Path.webp",
     "sourceTitle": "HTB Academy - Web Penetration Tester Path",
-    "credentialType": "Learning-path completion",
-    "detail": "Completed the HTB Academy Web Penetration Tester path (+330 Academy XP). This completion is not proof of a separate professional exam award.",
+    "credentialType": "Learning path completion",
+    "detail": "Completed the HTB Academy Web Penetration Tester path. Awarded 330 Academy XP.",
     "focus": "Web & API pentesting",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Web Penetration Tester Path"
   },
   {
     "title": "INE — Incident Handling & Response Professional Path (eCIR Prep)",
@@ -155,10 +183,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/INE - Incident Handling & Response Professional.pdf",
     "preview": "assets/previews/INE - Incident Handling & Response Professional.webp",
     "sourceTitle": "INE - Incident Handling & Response Professional",
-    "credentialType": "Learning-path completion",
-    "detail": "INE certificate of completion for the Incident Handling & Response Professional learning path, dated 24 May 2025; course length 8 h 22 m. Not an eCIR exam certificate.",
+    "credentialType": "Learning path · eCIR preparation",
+    "detail": "Completed INE’s Incident Handling & Response Professional learning path on 24 May 2025. Includes 8 hours and 22 minutes of instruction.",
     "focus": "Incident response",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Incident Handling & Response"
   },
   {
     "title": "INE — Penetration Testing Student Path (eJPT Prep)",
@@ -171,10 +200,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/INE - Penetration Testing Student.pdf",
     "preview": "assets/previews/INE - Penetration Testing Student.webp",
     "sourceTitle": "INE - Penetration Testing Student",
-    "credentialType": "Learning-path completion",
-    "detail": "INE certificate of completion for the Penetration Testing Student learning path, dated 16 Aug 2025; listed instructional length 153 h 54 m. Not an eJPT exam certificate.",
+    "credentialType": "Learning path · eJPT preparation",
+    "detail": "Completed INE’s Penetration Testing Student learning path on 16 August 2025. Includes 153 hours and 54 minutes of instruction.",
     "focus": "Penetration testing",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Penetration Testing Student"
   },
   {
     "title": "LetsDefend — SOC Analyst Learning Path",
@@ -187,10 +217,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/LetsDefend - SOC Analyst Learning Path.pdf",
     "preview": "assets/previews/LetsDefend - SOC Analyst Learning Path.webp",
     "sourceTitle": "LetsDefend - SOC Analyst Learning Path",
-    "credentialType": "Learning-path completion",
-    "detail": "Certificate on page 1 confirms completion of the LetsDefend SOC Analyst Learning Path (20 Apr 2025). The 6-page PDF also includes several separate training certificates already listed individually.",
+    "credentialType": "Learning path completion",
+    "detail": "Completed the LetsDefend SOC Analyst Learning Path on 20 April 2025. The six-page document also contains additional training certificates.",
     "focus": "SOC analysis",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "SOC Analyst Learning Path"
   },
   {
     "title": "Security Blue Team — Blue Team Junior Analyst Pathway",
@@ -203,10 +234,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Security Blue Team - Blue Team Junior Analyst Pathway.pdf",
     "preview": "assets/previews/Security Blue Team - Blue Team Junior Analyst Pathway.webp",
     "sourceTitle": "Security Blue Team - Blue Team Junior Analyst Pathway",
-    "credentialType": "Training-path completion",
-    "detail": "Completed Security Blue Team practical entry-level training in OSINT, digital forensics, vulnerability management, threat hunting, network analysis and related subjects; dated 12 Feb 2025.",
+    "credentialType": "Training path completion",
+    "detail": "Completed practical training in OSINT, digital forensics, vulnerability management, threat hunting, and network analysis. Issued on 12 February 2025.",
     "focus": "Blue-team analysis",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Junior Analyst Pathway"
   },
   {
     "title": "TryHackMe — Pre Security Learning Path",
@@ -219,10 +251,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/TryHackMe - Pre Security.pdf",
     "preview": "assets/previews/TryHackMe - Pre Security.webp",
     "sourceTitle": "TryHackMe - Pre Security",
-    "credentialType": "Learning-path completion",
-    "detail": "TryHackMe certificate of completion for the Pre Security Learning Path, dated 27 Oct 2024.",
+    "credentialType": "Learning path completion",
+    "detail": "Completed TryHackMe’s Pre Security learning path on 27 October 2024.",
     "focus": "Security foundations",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Pre Security"
   },
   {
     "title": "Amideast — Advanced STEM / Web Development",
@@ -236,9 +269,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/Amideast - Advanced STEM Program - Reduce Reuse & Recycle - Advanced Web Development.webp",
     "sourceTitle": "Amideast - Advanced STEM Program - Reduce Reuse & Recycle - Advanced Web Development",
     "credentialType": "Program participation",
-    "detail": "Certificate of participation in the Advanced STEM program “Reduce, Reuse & Recycle” — Advanced Web Development, February–March 2023.",
+    "detail": "Participated in Amideast’s Advanced STEM program, Reduce, Reuse & Recycle, with a focus on advanced web development. February–March 2023.",
     "focus": "Web development",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Advanced STEM & Web Development"
   },
   {
     "title": "Amideast — STEM / Reduce, Reuse & Recycle",
@@ -252,9 +286,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/Amideast - STEM Program - Reduce Reuse & Recycle.webp",
     "sourceTitle": "Amideast - STEM Program - Reduce Reuse & Recycle",
     "credentialType": "Program participation",
-    "detail": "Certificate of participation in the Amideast STEM program “Reduce, Reuse & Recycle”, 31 Jul–4 Dec 2022.",
+    "detail": "Participated in Amideast’s Reduce, Reuse & Recycle STEM program, from 31 July to 4 December 2022.",
     "focus": "STEM education",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "STEM: Reduce, Reuse & Recycle"
   },
   {
     "title": "BARQ Academy — Networking & Cybersecurity Fundamentals",
@@ -267,10 +302,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/BARQ Academy - Networking and Cyber Security Fundamentals Training.pdf",
     "preview": "assets/previews/BARQ Academy - Networking and Cyber Security Fundamentals Training.webp",
     "sourceTitle": "BARQ Academy - Networking and Cyber Security Fundamentals Training",
-    "credentialType": "Attendance certificate",
-    "detail": "Certificate of attendance for 48 hours of networking and cybersecurity fundamentals training, August 2026.",
+    "credentialType": "Training attendance · 48 hours",
+    "detail": "Attended 48 hours of networking and cybersecurity fundamentals training at BARQ Academy in August 2026.",
     "focus": "Networking & cybersecurity",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Networking & Cybersecurity Fundamentals"
   },
   {
     "title": "Netriders Academy — eCIR Preparation",
@@ -283,10 +319,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Netriders Academy - eCIR Prep.pdf",
     "preview": "assets/previews/Netriders Academy - eCIR Prep.webp",
     "sourceTitle": "Netriders Academy - eCIR Prep",
-    "credentialType": "Course completion",
-    "detail": "Netriders Academy certificate of course completion for eCIR Prep (52 hours). This is preparation, not proof of passing the INE eCIR certification exam.",
+    "credentialType": "Course completion · 52 hours",
+    "detail": "Completed Netriders Academy’s 52-hour eCIR preparation course in incident handling and response.",
     "focus": "Incident response",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "eCIR Preparation Course"
   },
   {
     "title": "NTI — Ethical Hacking",
@@ -299,10 +336,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/NTI - Ethical Hacking.pdf",
     "preview": "assets/previews/NTI - Ethical Hacking.webp",
     "sourceTitle": "NTI - Ethical Hacking",
-    "credentialType": "Program completion",
-    "detail": "Completed NTI Evening Digital Egypt Youth Ethical Hacking training, 17 Apr–3 Jul 2026; 72 hours, score 99%.",
+    "credentialType": "Program completion · 99% score",
+    "detail": "Completed 72 hours of NTI Ethical Hacking training with a score of 99%, from 17 April to 3 July 2026.",
     "focus": "Ethical hacking",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Ethical Hacking"
   },
   {
     "title": "NTI — Penetration Testing & Application Security",
@@ -315,10 +353,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/NTI - Pentesting & Application Security.pdf",
     "preview": "assets/previews/NTI - Pentesting & Application Security.webp",
     "sourceTitle": "NTI - Pentesting & Application Security",
-    "credentialType": "Program completion",
-    "detail": "Completed NTI Cybersecurity Academy (Undergraduate Level, 2026); the certificate lists 60 technical hours and 12 freelance hours.",
+    "credentialType": "Program completion · 72 hours",
+    "detail": "Completed NTI’s 2026 undergraduate Cybersecurity Academy program, with 60 hours of technical training and 12 hours of freelance training.",
     "focus": "Web & application security",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Penetration Testing & Application Security"
   },
   {
     "title": "Orange Digital Center — Mobile App Penetration Testing",
@@ -331,10 +370,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Orange Digital Center - Android Pentesting Internship.pdf",
     "preview": "assets/previews/Orange Digital Center - Android Pentesting Internship.webp",
     "sourceTitle": "Orange Digital Center - Android Pentesting Internship",
-    "credentialType": "Crash-course completion",
-    "detail": "Completed the Mobile App Penetration Testing Crash Course, 25–28 Jan 2026; the document lists 28 hours and a grade of 95%. It is not labeled as an internship certificate.",
+    "credentialType": "Crash course · 95% grade",
+    "detail": "Completed the 28-hour Mobile App Penetration Testing Crash Course with a grade of 95%, from 25 to 28 January 2026.",
     "focus": "Android security",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Mobile App Penetration Testing"
   },
   {
     "title": "Sprints — Cybersecurity Fundamentals",
@@ -347,10 +387,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Sprints - Cybersecurity Fundamentals.pdf",
     "preview": "assets/previews/Sprints - Cybersecurity Fundamentals.webp",
     "sourceTitle": "Sprints - Cybersecurity Fundamentals",
-    "credentialType": "Course completion",
-    "detail": "Certificate for completing the Sprints Cybersecurity Fundamentals course (40-hour learning workload).",
+    "credentialType": "Course completion · 40 hours",
+    "detail": "Completed Sprints’ Cybersecurity Fundamentals course, with a 40-hour learning workload.",
     "focus": "Cybersecurity foundations",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Cybersecurity Fundamentals"
   },
   {
     "title": "Wadhwani Foundation — Effective Speaking & Listening",
@@ -363,10 +404,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Wadhwani Foundation - Effective Speaking and Listening Skills.pdf",
     "preview": "assets/previews/Wadhwani Foundation - Effective Speaking and Listening Skills.webp",
     "sourceTitle": "Wadhwani Foundation - Effective Speaking and Listening Skills",
-    "credentialType": "Microcertificate (course)",
-    "detail": "Self-paced English communication course: 4 hours, completed 20 Jul 2026.",
+    "credentialType": "Course microcertificate",
+    "detail": "Completed a four-hour, self-paced English communication course on 20 July 2026.",
     "focus": "Communication",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Effective Speaking & Listening"
   },
   {
     "title": "Wadhwani Foundation — Self-Presentation",
@@ -379,10 +421,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Wadhwani Foundation - Self-Presentation.pdf",
     "preview": "assets/previews/Wadhwani Foundation - Self-Presentation.webp",
     "sourceTitle": "Wadhwani Foundation - Self-Presentation",
-    "credentialType": "Microcertificate (course)",
-    "detail": "Self-paced self-presentation course: 2 hours, completed 26 Jul 2026.",
+    "credentialType": "Course microcertificate",
+    "detail": "Completed a two-hour, self-paced course in self-presentation on 26 July 2026.",
     "focus": "Communication",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Self-Presentation"
   },
   {
     "title": "HTB Cyber Apocalypse 2026 — 123rd Place",
@@ -395,10 +438,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/HTB Cyber Apocalypse CTF 2026 - The Salt Crown - 123rd Place.pdf",
     "preview": "assets/previews/HTB Cyber Apocalypse CTF 2026 - The Salt Crown - 123rd Place.webp",
     "sourceTitle": "HTB Cyber Apocalypse CTF 2026 - The Salt Crown - 123rd Place",
-    "credentialType": "CTF participation result",
-    "detail": "Cyber Apocalypse CTF 2026 competition record: team Insider Eye ranked 123rd out of 6,744 teams, 134/136 challenges solved and 67,475 points.",
+    "credentialType": "Team CTF result",
+    "detail": "Placed 123rd out of 6,744 teams with Insider Eye. Solved 134 of 136 challenges and earned 67,475 points.",
     "focus": "Team CTF",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Cyber Apocalypse 2026 — 123rd Place"
   },
   {
     "title": "ICMTC 2026 Finals — 8th Place",
@@ -411,10 +455,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/ICMTC Finals 2026 - 8th Place.pdf",
     "preview": "assets/previews/ICMTC Finals 2026 - 8th Place.webp",
     "sourceTitle": "ICMTC Finals 2026 - 8th Place",
-    "credentialType": "Competition result",
-    "detail": "ICMTC Finals team ranking: 8th of 17 teams, 16/21 challenges solved, 7,650 points.",
+    "credentialType": "Team CTF result",
+    "detail": "Placed 8th out of 17 teams in the ICMTC 2026 Finals. Solved 16 of 21 challenges and earned 7,650 points.",
     "focus": "CTF finals",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "ICMTC 2026 Finals — 8th Place"
   },
   {
     "title": "ICMTC 2026 Qualifiers — 4th Place",
@@ -427,10 +472,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/ICMTC 2026 - 4th Place.pdf",
     "preview": "assets/previews/ICMTC 2026 - 4th Place.webp",
     "sourceTitle": "ICMTC 2026 - 4th Place",
-    "credentialType": "Competition result",
-    "detail": "Competition result for team Insider eye-ICMTC26: 4th of 87 teams, 19/20 challenges solved, 7,525 points.",
+    "credentialType": "Team CTF result",
+    "detail": "Placed 4th out of 87 teams with Insider eye-ICMTC26. Solved 19 of 20 challenges and earned 7,525 points.",
     "focus": "CTF qualifiers",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "ICMTC 2026 Qualifiers — 4th Place"
   },
   {
     "title": "ICMTC 2026 — Cyber Security Competition",
@@ -444,9 +490,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/ICMTC - Cyber Security Competition - Certificate of Participation.webp",
     "sourceTitle": "ICMTC - Cyber Security Competition - Certificate of Participation",
     "credentialType": "Competition participation",
-    "detail": "Military Technical College Certificate of Participation for ICMTC 2026, 11–16 Jul 2026, listing Mohamed Salah as a member of Insider Eye.",
+    "detail": "Participated in ICMTC 2026 as a member of Insider Eye, from 11 to 16 July 2026. Certificate issued by the Military Technical College.",
     "focus": "Team CTF",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "ICMTC 2026"
   },
   {
     "title": "TryHackMe — Advent of Cyber 2024",
@@ -459,10 +506,11 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/TryHackMe 2024.pdf",
     "preview": "assets/previews/TryHackMe 2024.webp",
     "sourceTitle": "TryHackMe 2024",
-    "credentialType": "Seasonal challenge completion",
-    "detail": "TryHackMe Advent of Cyber 2024 completion certificate for 24 cybersecurity challenges, issued 27 Dec 2024.",
+    "credentialType": "Challenge completion",
+    "detail": "Completed all 24 Advent of Cyber 2024 cybersecurity challenges. Certificate issued on 27 December 2024.",
     "focus": "Security challenges",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Advent of Cyber 2024"
   },
   {
     "title": "TryHackMe — Hacker Holidays 2026",
@@ -475,14 +523,15 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/TryHackMe - Hacker Holidays 2026.pdf",
     "preview": "assets/previews/TryHackMe - Hacker Holidays 2026.webp",
     "sourceTitle": "TryHackMe - Hacker Holidays 2026",
-    "credentialType": "Seasonal challenge completion",
-    "detail": "TryHackMe Hacker Holidays challenge-completion certificate, issued 11 Aug 2026; the certificate describes a 14-day challenge event.",
+    "credentialType": "Challenge completion",
+    "detail": "Completed TryHackMe’s 14-day Hacker Holidays challenge event. Certificate issued on 11 August 2026.",
     "focus": "Security challenges",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Hacker Holidays 2026"
   },
   {
     "title": "Elsewedy University — VANET Security Project",
-    "issuer": "VANET",
+    "issuer": "Elsewedy University of Technology",
     "category": "Research & Conferences",
     "driveId": "1wT71tZQQEdSniPu9s6koGuLHjq0bxH38",
     "landscape": true,
@@ -492,9 +541,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/VANET - Security and Attack Prevention System.webp",
     "sourceTitle": "VANET - Security and Attack Prevention System",
     "credentialType": "Project achievement",
-    "detail": "Elsewedy University certificate of achievement recognizing completion of the project “VANET: Security and Attack Prevention System,” dated 28 May 2025. It is a project achievement, not a journal publication certificate.",
+    "detail": "Recognized by Elsewedy University for completing VANET: Security and Attack Prevention System. Issued on 28 May 2025.",
     "focus": "Network security research",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "VANET Security & Attack Prevention"
   },
   {
     "title": "JAC-ECC 2024 — Conference & VANET Paper",
@@ -508,9 +558,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/E-JUST - International Japan-Africa Conference - Certificate of Attendance.webp",
     "sourceTitle": "E-JUST - International Japan-Africa Conference - Certificate of Attendance",
     "credentialType": "Conference attendance",
-    "detail": "Conference certificate for the paper on VANET security at JAC-ECC 2024. Mohamed Hefnawy is listed among the paper authors; the document identifies Yasmeen Khalifa as its presenter.",
+    "detail": "Conference record for a VANET security paper at JAC-ECC 2024. The certificate lists Mohamed Hefnawy among the authors and Yasmeen Khalifa as the presenter.",
     "focus": "VANET security research",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "JAC-ECC 2024 — VANET Research"
   },
   {
     "title": "British Council — Secondary Plus Progress Report",
@@ -524,9 +575,10 @@ const CERTIFICATES = [
     "preview": "assets/previews/British Council - Secondary Plus - YL Term 2 - Progress Report.webp",
     "sourceTitle": "British Council - Secondary Plus - YL Term 2 - Progress Report",
     "credentialType": "Academic progress report",
-    "detail": "Teacher’s Secondary Plus YL Term 2 progress report about speaking, listening, reading, writing and collaboration. It is not a completion certificate.",
+    "detail": "A Term 2 progress report covering English speaking, listening, reading, writing, and collaboration.",
     "focus": "English-language progress",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Secondary Plus — English Progress"
   },
   {
     "title": "Typing.com — Typing Assessment",
@@ -539,9 +591,10 @@ const CERTIFICATES = [
     "pdf": "assets/certificates/Typing.com - Typing Test - 53 WPM.pdf",
     "preview": "assets/previews/Typing.com - Typing Test - 53 WPM.webp",
     "sourceTitle": "Typing.com - Typing Test - 53 WPM",
-    "credentialType": "Skills assessment",
-    "detail": "One-page typing test result: 53 words per minute with 96% accuracy, 2 Aug 2025.",
+    "credentialType": "Skills assessment · 96% accuracy",
+    "detail": "Achieved 53 words per minute with 96% accuracy in a typing assessment on 2 August 2025.",
     "focus": "Typing proficiency",
-    "sourceLabel": "Original PDF"
+    "sourceLabel": "Original PDF",
+    "displayTitle": "Typing — 53 WPM"
   }
 ];

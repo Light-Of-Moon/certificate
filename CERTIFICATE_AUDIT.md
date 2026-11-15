@@ -1,6 +1,6 @@
 # Evidence audit — Certificate Wall
 
-Source review: 40 original PDF files in the `cet` Drive folder and 2 HexTree screenshot images. Website selection: 32 original PDFs and 2 HexTree screenshots. The EnglishScore B2 document has been removed from the website only.
+Source review: 40 original PDF files in the `cet` Drive folder and 2 HexTree screenshot images. Website selection: 32 original PDFs, 2 HexTree screenshots, and 1 owner-supplied Cyber Week Plus certificate image. The EnglishScore B2 document has been removed from the website only.
 
 Each filter is based on the **type of evidence**, not merely the subject area or issuer. The original PDF files and Drive IDs have not been renamed or modified.
 
@@ -280,16 +280,25 @@ Each filter is based on the **type of evidence**, not merely the subject area or
 - **Evidence:** One-page typing test result: 53 words per minute with 96% accuracy, 2 Aug 2025.
 - **Source:** assets/certificates/Typing.com - Typing Test - 53 WPM.pdf | [Drive original](https://drive.google.com/file/d/1CFEFZGDLzQoQDwTg0t61vjpQQlkTgXuF/view)
 
+### 35. XPAND CS — Cyber Week Plus — Top 10
+
+- **Filter:** CTFs & Challenges
+- **Award type:** Top 10 recognition
+- **Evidence:** The owner-supplied certificate is addressed to Mohamed Salah Mohamed and states successful ranking in the Top 10 at Cyber Week Plus, dated 24 August 2026.
+- **Issuer marks:** XPAND CS / MCS / Palo Alto Networks.
+- **Source:** assets/certificates/XPAND CS - Cyber Week Plus - Top 10.jpeg
+- **Integrity:** The supplied JPEG is copied byte for byte. A separate WebP thumbnail is used in the gallery. No rank beyond the certificate's Top 10 claim is added.
+
 ## Counts
 
 - Internships: 2
 - Hands-on Labs: 3
 - Learning Paths: 9
 - Training & Courses: 10
-- CTFs & Challenges: 6
+- CTFs & Challenges: 7
 - Research & Conferences: 2
-- Assessments & Skills: 3
+- Assessments & Skills: 2
 
-**Total: 35 items (33 PDFs, 2 screenshot records).**
+**Total: 35 items (32 PDFs, 2 screenshot records, 1 certificate image).**
 
 **HTB Pro Labs displayed:** APTLabs and Zephyr only. The seven excluded HTB Pro Labs have been removed from this site package, not from Google Drive.
